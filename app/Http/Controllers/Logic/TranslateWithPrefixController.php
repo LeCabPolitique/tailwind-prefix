@@ -37,7 +37,8 @@ class TranslateWithPrefixController extends Controller
 
         return view('welcome')->with([
             'code' => $request->input('code'),
-            'formatedCode' => $code
+            'formatedCode' => $code,
+            'prefix' => $prefix
         ]);
     }
 }
