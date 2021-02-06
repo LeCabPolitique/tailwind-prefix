@@ -4,13 +4,13 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
+        <title>Tailwind Prefix</title>
     </head>
-    <body class="container  mx-auto min-h-screen bg-gray-50">
+    <body class="container mx-auto bg-gray-50">
         <form action="{{ route('translate.prefix') }}" method="POST">
             @csrf
             <div class="grid grid-cols-2 gap-4 mt-56">
-                <div class="">
+                <div>
                     <div class="shadow sm:rounded-md sm:overflow-hidden">
                         <div class="px-4 py-5 bg-white space-y-6 sm:p-6">
                             <div>
